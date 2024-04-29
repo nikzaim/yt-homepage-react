@@ -1,9 +1,11 @@
+import { PageHeader } from "./layouts/PageHeader";
+
 function App() {
   return (
-    <>
-      <h1>Hello</h1>
-      <img src="./src/assets/wetube.png" alt="" />
-    </>
+    <div className="max-h-screen flex flex-col">
+      <PageHeader />
+      <div>2</div>
+    </div>
   );
 }
 
